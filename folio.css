@@ -1,0 +1,155 @@
+  *{
+      margin:0;
+      box-sizing: border-box;
+      
+  }
+  
+  nav {
+   
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #131366;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+   
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 150px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  button {
+    background-color:#00FFBB;
+    color:#1D0D30;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+  }
+  #name{
+      font-size: 30px;
+      color:#00FFBB;
+  }
+  .part_one{
+      color:#00FFBB;
+      margin-left: 3%;
+      margin-top:20%;
+  }
+  .part_two{
+    margin-top: 4%;
+  }
+  #text_one{
+      font-size: 50px;
+      padding: 0 30px;
+      margin-left: 30%;
+  }
+  .section_one{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-image: url(/images/background.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  #par_one{
+      margin-top: 30%;
+      font-size: 25px;
+      color: white;
+  }
+  #text_two{
+    font-size: 65px;
+    /* margin-left: 15%; */
+  }
+  #text_three{
+    font-size: 60px;
+  }
+  #about{
+      margin-top: 5%;
+      margin-left: 5%;
+      /* background-color: white; */
+  }
+  #lily{
+    width:60%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 20%;
+    border:1px solid  #1D0D30;
+    border-radius: 50%;
+    width: 450px;
+    height:500px;
+  }
+  .section_two{
+    margin-top: 3%;
+  }
+  #head_two{
+    margin-left: 49%;
+  }
+  #text_one {
+    /* font-size: 72px; */
+    font-weight: bold;
+    color:#00FFBB;
+    /* text-shadow: 0 0 10px ; */
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards, rotate 4s linear infinite;
+  }
+  #text_two{
+    font-weight: bold;
+    color:#00FFBB;
+    /* text-shadow: 0 0 10px ; */
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fade-in 4s ease-in-out forwards, rotate 4s linear infinite;
+  }
+  #text_three{
+    font-weight: bold;
+    color:#00FFBB;
+    /* text-shadow: 0 0 10px ; */
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fade-in 6s ease-in-out forwards, rotate 4s linear infinite;
+  }
+
+  /* Define the keyframes for the fade-in animation */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  /* @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    } */
+  /* } */
+  
